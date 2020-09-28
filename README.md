@@ -1,11 +1,13 @@
 About:
 --------------------------------------------------------
-A simple web app for adding and searching movies.
+A simple web app for adding and searching movies. Screenshots of the same are available in 'SampleScreenshots' folder.
 
 
 Steps for Running spring-boot
 --------------------------------------------------------
-Go to root folder and run following command to start server
+Please download the code as zip and extract it.
+
+Go to root folder (Demo-master) and run following command to start server
 
 ./mvnw spring-boot:run
 
