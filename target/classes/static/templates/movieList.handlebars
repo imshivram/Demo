@@ -1,0 +1,15 @@
+<table>
+	<thead>
+		<tr>
+			<th>Movie Name</th>
+			<th>Categories</th>
+			<th>Release Date</th>
+		</tr>
+	</thead>
+	<tbody> {{#each data}}
+		<tr>
+			<td>{{this.name}}</td>
+			<td>{{this.categories}}</td>
+			<td>{{this.new_date}}</td>
+		</tr> {{/each}} </tbody>
+</table>

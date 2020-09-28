@@ -1,0 +1,18 @@
+<div id="searchMovies" style="margin: 0 auto;"> <b>Search Movie:</b>
+	<br>
+	<input type="text" id="searchName" placeholder="Name..">
+	<label for="fromDate">FromDate:</label>
+	<input type="date" id="from_date" name="fromDate">
+	<label for="toDate">ToDate:</label>
+	<input type="date" id="to_date" name="toDate">
+	<div style="display: inline">
+		<input type="submit" value="Search" onclick="movies().searchMovies()">
+		<input type="submit" value="Clear" onclick="movies().clearSearch()"> </div>
+	<div class="selectBox" onclick="movies().toggleCheckBox('checkboxes')" style="width: 60%;">
+		<select>
+			<option type="placeholder">Category</option>
+		</select>
+		<div class="overSelect"></div>
+	</div>
+	<div id="checkboxes" style="position: absolute"> </div>
+</div>

@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+table {
+	width: 100%;
+}
+table, th, td {
+	border: 1px solid lightgrey;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 2px 4px;
+}
+.multiselect {
+  width: 100px;
+}
+.selectBox {
+  position: relative;
+}
+.selectBox select {
+  width: 20%;
+  font-weight: bold;
+}
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  width: 20%;
+}
+#checkboxes label {
+  display: block;
+}
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+#addNewMovie_checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  width: 20%;
+}
+#addNewMovie_checkboxes label {
+  display: block;
+}
+#addNewMovie_checkboxes label:hover {
+  background-color: #1e90ff;
+}

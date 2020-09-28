@@ -1,0 +1,14 @@
+<b>Add New Movie:</b>
+<div id="addMovies" style="margin: 0 auto;">
+	<input type="text" id="addNewMovie" placeholder="Name..">
+	<label for="releaseDate">Release Date:</label>
+	<input type="date" id="release_dae" name="releaseDate">
+	<button type="submit" onclick="movies().addMovie()">Add Movie</button>
+	<div class="selectBox" style="width: 55%" onclick="movies().toggleCheckBox('addNewMovie_checkboxes')">
+		<select>
+			<option type="placeholder">Category</option>
+		</select>
+		<div class="overSelect"></div>
+	</div>
+	<div id="addNewMovie_checkboxes" style="position: absolute"> </div>
+</div>

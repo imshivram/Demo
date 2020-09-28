@@ -1,0 +1,6 @@
+(function() {
+  var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
+templates['searchMovie'] = template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    return "<div id=\"searchMovies\" style=\"margin: 0 auto;\"> <b>Search Movie:</b>\n	<br>\n	<input type=\"text\" id=\"searchName\" placeholder=\"Name..\">\n	<label for=\"fromDate\">FromDate:</label>\n	<input type=\"date\" id=\"from_date\" name=\"fromDate\">\n	<label for=\"toDate\">ToDate:</label>\n	<input type=\"date\" id=\"to_date\" name=\"toDate\">\n	<div style=\"display: inline\">\n		<input type=\"submit\" value=\"Search\" onclick=\"movies().searchMovies()\">\n		<input type=\"submit\" value=\"Clear\" onclick=\"movies().clearSearch()\"> </div>\n	<div class=\"selectBox\" onclick=\"movies().toggleCheckBox('checkboxes')\" style=\"width: 60%;\">\n		<select>\n			<option type=\"placeholder\">Category</option>\n		</select>\n		<div class=\"overSelect\"></div>\n	</div>\n	<div id=\"checkboxes\" style=\"position: absolute\"> </div>\n</div>";
+},"useData":true});
+})();
